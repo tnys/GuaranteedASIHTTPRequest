@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1CE4FB149B51A20072D11A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1CE4FA149B51A20072D11A /* Foundation.framework */; };
+		DBEC0141149B51DA00855DBB /* TWGuaranteedHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEC013F149B51DA00855DBB /* TWGuaranteedHTTPRequest.h */; };
+		DBEC0142149B51DA00855DBB /* TWGuaranteedHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC0140149B51DA00855DBB /* TWGuaranteedHTTPRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1CE4F7149B51A20072D11A /* libGuaranteedASIHTTPRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGuaranteedASIHTTPRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1CE4FA149B51A20072D11A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1CE4FE149B51A20072D11A /* GuaranteedASIHTTPRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuaranteedASIHTTPRequest-Prefix.pch"; sourceTree = "<group>"; };
+		DBEC013F149B51DA00855DBB /* TWGuaranteedHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGuaranteedHTTPRequest.h; sourceTree = "<group>"; };
+		DBEC0140149B51DA00855DBB /* TWGuaranteedHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGuaranteedHTTPRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1CE4F4149B51A20072D11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1CE4FB149B51A20072D11A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1CE4EC149B51A20072D11A = {
+			isa = PBXGroup;
+			children = (
+				DB1CE4FC149B51A20072D11A /* GuaranteedASIHTTPRequest */,
+				DB1CE4F9149B51A20072D11A /* Frameworks */,
+				DB1CE4F8149B51A20072D11A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1CE4F8149B51A20072D11A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CE4F7149B51A20072D11A /* libGuaranteedASIHTTPRequest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1CE4F9149B51A20072D11A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CE4FA149B51A20072D11A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1CE4FC149B51A20072D11A /* GuaranteedASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC013F149B51DA00855DBB /* TWGuaranteedHTTPRequest.h */,
+				DBEC0140149B51DA00855DBB /* TWGuaranteedHTTPRequest.m */,
+				DB1CE4FD149B51A20072D11A /* Supporting Files */,
+			);
+			path = GuaranteedASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		DB1CE4FD149B51A20072D11A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CE4FE149B51A20072D11A /* GuaranteedASIHTTPRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB1CE4F5149B51A20072D11A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC0141149B51DA00855DBB /* TWGuaranteedHTTPRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB1CE4F6149B51A20072D11A /* GuaranteedASIHTTPRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1CE504149B51A20072D11A /* Build configuration list for PBXNativeTarget "GuaranteedASIHTTPRequest" */;
+			buildPhases = (
+				DB1CE4F3149B51A20072D11A /* Sources */,
+				DB1CE4F4149B51A20072D11A /* Frameworks */,
+				DB1CE4F5149B51A20072D11A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuaranteedASIHTTPRequest;
+			productName = GuaranteedASIHTTPRequest;
+			productReference = DB1CE4F7149B51A20072D11A /* libGuaranteedASIHTTPRequest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1CE4EE149B51A20072D11A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Netwalk VOF";
+			};
+			buildConfigurationList = DB1CE4F1149B51A20072D11A /* Build configuration list for PBXProject "GuaranteedASIHTTPRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1CE4EC149B51A20072D11A;
+			productRefGroup = DB1CE4F8149B51A20072D11A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1CE4F6149B51A20072D11A /* GuaranteedASIHTTPRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1CE4F3149B51A20072D11A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC0142149B51DA00855DBB /* TWGuaranteedHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB1CE502149B51A20072D11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1CE503149B51A20072D11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1CE505149B51A20072D11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GuaranteedASIHTTPRequest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuaranteedASIHTTPRequest/GuaranteedASIHTTPRequest-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB1CE506149B51A20072D11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GuaranteedASIHTTPRequest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuaranteedASIHTTPRequest/GuaranteedASIHTTPRequest-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1CE4F1149B51A20072D11A /* Build configuration list for PBXProject "GuaranteedASIHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CE502149B51A20072D11A /* Debug */,
+				DB1CE503149B51A20072D11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1CE504149B51A20072D11A /* Build configuration list for PBXNativeTarget "GuaranteedASIHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CE505149B51A20072D11A /* Debug */,
+				DB1CE506149B51A20072D11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1CE4EE149B51A20072D11A /* Project object */;
+}
